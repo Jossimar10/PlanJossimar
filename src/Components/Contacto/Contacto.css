@@ -1,0 +1,57 @@
+.contacto-section {
+    padding: 40px 20px;
+    background-color: #e8ecef; /* Fondo gris claro como en la primera imagen */
+    text-align: center;
+  }
+  
+  .contacto-section h2 {
+    font-size: 2.5rem;
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 30px;
+  }
+  
+  .contacto-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .contacto-card {
+    background-color: #fff;
+    border: 1px solid #d3d3d3; /* Borde claro como en la primera imagen */
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .contacto-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .contacto-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-btn {
+    background-color: #007bff; /* Azul similar al del encabezado de la primera imagen */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contacto-btn:hover {
+    background-color: #0056b3; /* Tono más oscuro al hacer hover */
+  }
+  
+  

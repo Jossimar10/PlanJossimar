@@ -1,0 +1,54 @@
+.nosotros-section {
+    background-color: #e8ecef; /* Fondo gris claro como en la primera imagen */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .nosotros-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .nosotros-content h2 {
+    font-size: 2.5rem;
+    color: #333; /* Texto oscuro como en la primera imagen */
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-content p {
+    font-size: 1.2rem;
+    color: #666; /* Texto gris como en la primera imagen */
+    margin-bottom: 30px;
+  }
+  
+  .nosotros-btn {
+    background-color: #007bff; /* Azul como los botones de la primera imagen */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nosotros-btn:hover {
+    background-color: #0056b3; /* Tono más oscuro al hacer hover */
+  }
+  
+  @media (max-width: 768px) {
+    .nosotros-content {
+      text-align: center;
+    }
+  
+    .nosotros-content h2 {
+      font-size: 2rem;
+    }
+  
+    .nosotros-content p {
+      font-size: 1rem;
+    }
+  }

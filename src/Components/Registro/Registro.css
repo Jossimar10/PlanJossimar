@@ -1,0 +1,89 @@
+.registro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a3c5e; /* Fondo azul oscuro, consistente con Login */
+    font-family: Arial, sans-serif;
+  }
+  
+  .registro-box {
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .registro-box h1 {
+    color: #333; /* Texto oscuro, consistente con la primera maquetación */
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .registro-box p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .registro-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .registro-input::placeholder {
+    color: #aaa;
+    text-transform: uppercase;
+  }
+  
+  .terms-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .terms-checkbox input {
+    margin-right: 5px;
+  }
+  
+  .terms-checkbox a {
+    color: #00aaff; /* Azul claro de la primera maquetación */
+    text-decoration: none;
+  }
+  
+  .terms-checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Verde para el botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
