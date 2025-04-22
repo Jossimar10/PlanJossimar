@@ -10,7 +10,7 @@ const Login = () => {
         <input type="password" placeholder="Contraseña" className="login-input" />
         <button className="login-button">Login</button>
         <p className="forgot-password">
-          ¿Perdiste tu contraseña? <a href="#">No tienes cuenta? Regístrate</a>
+          ¿Perdiste tu contraseña? <a href="/registro">No tienes cuenta? Regístrate</a>
         </p>
       </div>
       <button className="back-button">Volver</button>

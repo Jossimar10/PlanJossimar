@@ -1,11 +1,12 @@
 import './Home.css';
-
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="Container">
       <header className="HeaderCont">
         <h1>COMPANY NAME HERE</h1>
         <div className="TextCOn">
+          <Link to ="/login"><li>Iniciar sesion</li></Link>
           <p>PRODUCTS</p>
           <p className="TextCOn1">SERVICES</p>
         </div>
