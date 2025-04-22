@@ -38,10 +38,13 @@
   .Container h2{
     color: #00aaff;
     font-size: 24px;
-    margin-right: 900px; 
+    margin-right: 900px;
   }
   .img1{
     width: 100%;
+  }
+  .Cam{
+    width: 1265px;
   }
   
   .grid-section{
@@ -67,11 +70,14 @@
     background-color: #7fb3d5;
     padding: 40px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
   }
   
   .SeccionProduct h2{
     margin-bottom: 20px;
-    color: #333
+    color: #333;
+    text-align: center;
+    
   }
   
   .grid-Productos{
@@ -99,8 +105,7 @@
     background: #f0f0f0;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: column;
     font-size: 18px;
   }
   
@@ -115,3 +120,11 @@
     font-size: 16px;
     margin-bottom: 5px;
   }
+  .Cont{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Titulo{
+    text-align: center;
+  }
+  

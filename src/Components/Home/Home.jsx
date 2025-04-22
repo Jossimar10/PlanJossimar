@@ -14,7 +14,7 @@ function Home() {
       </header>
 
       <section className="img1">
-        <img src="https://png.pngtree.com/thumb_back/fw800/background/20230527/pngtree-hay-bale-sitting-in-the-middle-of-the-desert-image_2674045.jpg" alt="Campo" />
+        <img className='Cam' src="https://png.pngtree.com/thumb_back/fw800/background/20230527/pngtree-hay-bale-sitting-in-the-middle-of-the-desert-image_2674045.jpg" alt="Campo" />
       </section>
 
       <section className="grid-section">
@@ -45,7 +45,9 @@ function Home() {
       </section>
 
       <section className="SeccionProduct">
-        <h2>PRODUCTOS</h2>
+        <div className='Cont'>
+        <h3 className='Titulo'>PRODUCTOS</h3>
+        </div>
         <div className="grid-Productos">
           <div className="productos-item">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQFyiMKt9ljcgKJ7J7qgHYoKTUWAF_suLZQ&s" alt="Ciudad nocturna" />
