@@ -35,13 +35,13 @@
     margin-right: 900px;
   }
   
+  .Container h2{
+    color: #00aaff;
+    font-size: 24px;
+    margin-right: 900px; 
+  }
   .img1{
     width: 100%;
-    height: auto;
-    height: autos;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    margin-top: 50px;
   }
   
   .grid-section{
@@ -52,10 +52,9 @@
   }
   
   .grid-item img{
-    width: 280px;
+    width: 400px;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
   
@@ -82,12 +81,11 @@
   }
   
   .productos-item img{
-    width: 100%;  
+    width: 400%;  
     max-width: 300px;
     height: 200px;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
   }
   
   .productos-item p{

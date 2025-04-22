@@ -4,7 +4,8 @@ function Home() {
   return (
     <div className="Container">
       <header className="HeaderCont">
-        <h1>COMPANY NAME HERE</h1>
+        <h1>COMPANY </h1>
+      <h2>NAME HERE</h2>
         <div className="TextCOn">
           <Link to ="/login"><li>Iniciar sesion</li></Link>
           <p>PRODUCTS</p>
